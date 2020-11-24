@@ -7,6 +7,7 @@ import com.ss.ParkingService.ParkingServiceImpl;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.net.URL;
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +20,8 @@ public class Main {
 
         try {
             // read the input file
-            File myObj = new File("src/com/ss/input.txt");
+            URL url = Main.class.getResource("input.txt");
+            File myObj = new File(url.getPath());
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
