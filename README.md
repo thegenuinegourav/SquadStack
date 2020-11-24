@@ -20,4 +20,4 @@
 3. Loosely Coupled System. 
 
 # Demo
-Demo Video is also available. Watch to see how to run using [IntelliJ editor]() or using [command line]() 
+Demo Video is also available. Watch to see how to run using [command line](https://github.com/thegenuinegourav/SquadStack/blob/master/commandline.mov) 
